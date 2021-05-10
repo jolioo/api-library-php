@@ -1,0 +1,23 @@
+{
+  "name": "jolioo/joliooapi",
+  "description": "Jolioo API Library",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jolioo",
+      "email": "dev@jolioo.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JoliooAPI\\": "src/"
+    }
+  }
+}
